@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form enctype="multipart/form-data">
+      <input type="text" name="countrylist" list="countrylist" />
+      <datalist id="countrylist">
+        <option value="nepal"></option>
+        <option value="india"></option>
+        <option value="china"></option>
+        <option value="japan"></option>
+        <option value="srilanka"></option>
+      </datalist>
+      <hr />
+      Food :<select name="fruits" multiple size="6">
+        <optgroup label="fruits">
+          <option value="apple">apple</option>
+          <option value="mango">mango</option>
+          <option value="banana">banana</option>
+          <option value="grapes">grapes</option>
+          <option value="orange">orange</option>
+        </optgroup>
+        <optgroup label="vegetables">
+          <option value="potato">potato</option>
+          <option value="tomato">tomato</option>
+          <option value="cabbage">cabbage</option>
+          <option value="onion">onion</option>
+          <option value="spinach">spinach</option>
+      </select>
+
+      <hr />
+      value readonly : <input type="text" name="n1" value="sujan" readonly />
+      <hr>
+      placeholder : <input type="text" name="n2" placeholder="sujan"/>
+      <hr>
+      hidden value : <input type="hidden" name="n3" value="sujan"/>
+      <hr>
+      file(photo) : <input type="file" name="photo" accept="image/*" />
+      <hr>
+      required : <input type="text" name="n4" required/>
+      <hr>
+      autocomplete off : <input type="text" name="email" autocomplete="off"/>
+        <hr>
+        autofocus : <input type="text" name="n6" autofocus/>
+        <hr>
+      <input type="image" name="image" width="30" src="https://www.scaler.com/topics/images/image-as-button-in-html_thumbnail.webp">
+      <hr>
+      <input type="reset">
+      <input type="submit" name ="submit" value="send">
+      <hr>
+      <button>send</button>
+
+    
+    </form>
+</html>
